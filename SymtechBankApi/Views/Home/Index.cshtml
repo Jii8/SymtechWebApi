@@ -1,0 +1,64 @@
+﻿<div class="jumbotron">
+    <h1>Symtech Bank API List</h1>
+    <table>
+        <tr>
+            <th>HTTP Method</th>
+            <th>Path</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/api/Accounts</td>
+            <td>Gets the list of all accounts</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/api/Accounts/{id:guid}</td>
+            <td>Get an account by the specified id</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/api/Accounts</td>
+            <td>Creates a new account</td>
+        </tr>
+        <tr>
+            <td>PUT</td>
+            <td>/api/Accounts/{id:guid}</td>
+            <td>Updates an account</td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>/api/Accounts/{id:guid}</td>
+            <td>Delete an account</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/api/Accounts/{accountId:guid}/Transactions</td>
+            <td>Gets the list of transactions for an account</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/api/Accounts/{accountId:guid}/Transactions</td>
+            <td>Add a transaction to an account, and updates the amount of money in the account</td>
+        </tr>
+    </table>
+
+
+</div>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
