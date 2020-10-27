@@ -16,7 +16,7 @@ Name: SymtechBankApi
 10. Included try-catch to manage exception
 11. Included response messages for feedback
 
-** Suggestions or Future Modifications **
+** Future Improvements **
 1. Implement swagger (Swashbuckle) for documentation and to provide a UI for providing more information about API
 2. Api should set maximum response per call and need to be documented
 3. Allow multiple accounts, transactions per call
